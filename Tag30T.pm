@@ -14,7 +14,7 @@ use constant TAG_ID=>'T';
 use constant FIGURES_IN_YEAR=>4;
 
 use vars qw($VERSION);
-$VERSION='0.01';
+$VERSION='0.02';
 
 ###########################################################################################################
 'Choppers rule';
@@ -98,7 +98,7 @@ Will return the version of this Perl module.
 
 It is very unlikeley that the calling application will benefit from calling this method.
 The method is providing the Tag ID which is the difference between a TAG30 and a TAG30T.
-By providing this method in this class, the equvalent method in the base class is overridden
+By providing this method in this class, the equivalent method in the base class is overridden
 and a TAG30T is provided by string() instead of a TAG30.
 
 =item FIGURES_IN_YEAR();
